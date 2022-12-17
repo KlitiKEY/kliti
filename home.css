@@ -1,0 +1,273 @@
+body{
+  
+    margin: 0;
+}
+.nav{
+    height:120px;
+    box-shadow: 0px 0px 5px black;
+    background-color: whitesmoke;
+    opacity: .5;
+    text-align: center;
+}
+.nav a{
+   padding: 40px;
+   transition: .5s;
+    text-decoration: none;
+    color: black;
+    font-size: 160%;
+
+}
+.nav a:hover{
+    color: black;
+
+}
+.img img{
+    width: 30%;
+    height: 20%;
+    position: relative; top:30px;left: 70%;
+}
+.name{
+    font-family: "My Font";
+    color: black;
+    font-size: 240%;
+}
+@font-face {
+    font-family: "My Font";
+    src: url("LaBelleAurore-Regular.ttf");
+  }
+
+  #book{
+    color:black;
+  }
+  #book:hover{
+    color: purple;
+  }
+
+  .llafe{
+    
+    font-family: "My Font";
+    color:black;
+    font-size: 240%;
+    position: relative;top: -40px; left: -180px;
+    
+    
+  }
+  .bkg{
+    
+    background: linear-gradient(to bottom right, dimgray,gray,dimgray);
+
+        
+  }
+  .llafe a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 16px;
+
+  }
+  .llafe button{
+    background-color: black;
+    width: 30%;
+    height:40px;
+    border-radius: 5px;
+  }
+  .llafe button:hover{
+    background-color: purple;
+
+  }
+  
+  .review1{
+    height: 30%;
+    width: 40%;
+    box-shadow: 5px 5px 5px dimgray;
+    background-color: lightyellow;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px;
+    transition: .5s;
+
+  }
+  .review2{
+    height: 30%;
+    width: 40%;
+    box-shadow: 5px 5px 5px dimgray;
+    background-color: lightyellow;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px;
+   transition: .5s;
+
+
+  }
+  .review1:hover{
+    transform: scale(1.1);
+  }
+  .review2:hover{
+    transform: scale(1.1);
+  }
+  .icon img{
+    width: 30px;
+    -ms-flex-item-align: center;
+  }
+  .icontxt{
+    font-family: "My Font";
+    color: peru;
+    text-align: center;
+  }
+  .icon img, .icontxt{
+    display: inline;
+  }
+  .icon2 img{
+    width: 30px;
+    -ms-flex-item-align: center;
+  }
+  .icontxt2{
+    font-family: "My Font";
+    color: peru;
+    text-align: center;
+  }
+  .icon2 img, .icontxt2{
+    display: inline;
+  
+  }
+  .review1, .review2{
+    display: inline-block;
+  }
+  .gallery h2{
+    font-family: "GG";
+    text-align: center;
+    font-size: 36px;
+  }
+  .gallery img{
+    width: 20%;
+    height:20%;
+    margin: 30px;
+    transition: .8s;
+    box-shadow: 5px 5px 5px gold;
+    border-radius: 10px;
+
+  }
+  .gallery img:hover{
+    transform: scale(1.2);
+
+  }
+  @font-face{
+    font-family:"GG";
+    src:url("Kenia-Regular.ttf");
+  }
+  .gallery2 img{
+    box-shadow: 5px 5px 5px purple;
+    width: 20%;
+    height:20%;
+    margin: 30px;
+    transition: .8s;
+    border-radius: 10px;
+
+  }
+  .gallery2 img:hover{
+    transform: scale(1.2);
+  }
+
+  .products img{
+    width:50%;
+    margin: 60px;
+    height:80%;
+    border-radius: 10px;
+   
+  }
+.p{
+    border-left:3px dotted purple;
+    border-top:3px dotted purple;
+    border-right:3px dotted gold;
+    border-bottom:3px dotted gold;
+    width:20%;
+    text-align: center;
+    margin: 25px;
+    border-radius: 10px;
+    transition: .5s;
+   
+}
+.d{
+    border-left:3px dotted gold;
+    border-right: 3px dotted purple;
+    border-top:3px dotted gold;
+    border-bottom: 3px dotted purple;
+    width:20%;
+    text-align: center;
+    margin: 25px;
+    border-radius: 10px;
+    transition: .5s;
+}
+.t{
+    border-left:3px dotted purple;
+    border-top:3px dotted purple;
+    border-right:3px dotted gold;
+    border-bottom:3px dotted gold;
+    width:20%;
+    text-align: center;
+    margin: 25px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.k{
+    border-left:3px dotted gold;
+    border-top:3px dotted gold;
+    border-right:3px dotted purple;
+    border-bottom:3px dotted purple;
+    width:20%;
+    text-align: center;
+    margin: 25px;
+    border-radius: 10px;
+    transition: .5s;
+}
+.p:hover{
+    transform: scale(1.1);
+   
+}
+.d:hover{
+    transform: scale(1.1);
+}
+.t:hover{
+    transform: scale(1.1);
+}
+.k:hover{
+    transform: scale(1.1);
+}
+
+.p,.d,.t,.k{
+    display: inline-block;
+}
+.bkg .img img, .bkg .llafe{
+    display: inline-block;
+} 
+.footer{
+    background-color: black;
+    height: 40%;
+    color: whitesmoke;
+    text-align: center;
+  }
+
+  .footer img{
+    width: 10px;
+    z-index: 1;
+    margin-right: 10px;
+  }
+  .footer a{
+    padding: 30px;
+    transition: .5s;
+  }
+  .footer a:hover{
+    color: orchid;
+  }
+ 
+  .footer .txt{
+    padding-left: 30%;
+    padding-top: 2%;
+    font-size: 16px;
+    width: 40%;
+    font-weight: bold;
+    font-family: "My Font";
+    color: orchid;
+  }

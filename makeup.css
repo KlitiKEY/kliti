@@ -1,0 +1,219 @@
+body{
+  
+    margin: 0;
+}
+.nav{
+    height:120px;
+    box-shadow: 0px 0px 5px dimgray;
+    
+    text-align: center;
+}
+.nav a{
+   padding: 40px;
+   transition: .5s;
+    text-decoration: none;
+    color: gold;
+    font-size: 160%;
+
+}
+.nav a:hover{
+    color: darkgray;
+
+}
+.img img{
+    width: 30%;
+    height: 20%;
+    position: relative; top:30px;left: 70%;
+}
+.name{
+    font-family: "My Font";
+    color:gold;
+    font-size: 240%;
+}
+@font-face {
+    font-family: "My Font";
+    src: url("LaBelleAurore-Regular.ttf");
+  }
+.bkg{
+  background-image: url("img/makeup.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.maposht{
+  height: 400px;
+  width: 80%;
+  background-color: whitesmoke;
+  opacity: .85;
+  border: 3px solid black;
+  margin-left: 10%;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+.titull{
+  font-family: "My Font";
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: gold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.sellma{
+  height:90%;
+  width: 30%;
+  background-color:black;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 40px;
+  position: relative;top:-10%;
+  box-shadow: 5px 5px 5px gold;
+  transition: .5s;
+  position: relative;top:-20%;
+}
+.sellma img{
+  width: 70%;
+  height:60%;
+  border-radius: 7px;
+  margin-left: 15%;
+  margin-top: 10%;
+}
+.sellma p{
+  color: whitesmoke;
+  text-align: center;
+}
+.sellma:hover{
+  opacity: 1;
+  transform: scale(1.1);
+}
+.sellma button{
+  margin-left: 37.5%;
+  width: 25%;
+  height: 10%;
+  background-color: bisque;
+  border: 2px solid gold;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: .5s;
+}
+.sellma button:hover{
+  transform: scale(1.3);
+  background-color: burlywood;
+}
+.ujvara{
+  height:90%;
+  width: 30%;
+  background-color:black;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 40px;
+  position: relative;top:-10%;
+  box-shadow: 5px 5px 5px gold;
+  transition: .5s;
+  position: relative; top:-20%;
+}
+.ujvara img{
+  width: 80%;
+  height:60%;
+  border-radius: 7px;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.ujvara p{
+  color: whitesmoke;
+  text-align: center;
+}
+.ujvara:hover{
+  opacity: 1;
+  transform: scale(1.1);
+}
+.ujvara button{
+  margin-left: 37.5%;
+  width: 25%;
+  height: 10%;
+  background-color: bisque;
+  border: 2px solid gold;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: .5s;
+}
+.ujvara button:hover{
+  transform: scale(1.3);
+  background-color: burlywood;
+}
+.ujvara,.sellma, .elona{
+  display: inline-block;
+}
+.elona{
+  height:90%;
+  width: 30%;
+  background-color:black;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 40px;
+  position: relative;top:-10%;
+  box-shadow: 5px 5px 5px gold;
+  transition: .5s;
+  position: relative; top:-20%;
+}
+.elona img{
+  width: 80%;
+  height:60%;
+  border-radius: 7px;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.elona p{
+  color: whitesmoke;
+  text-align: center;
+}
+.elona:hover{
+  opacity: 1;
+  transform: scale(1.1);
+}
+.elona button{
+  margin-left: 37.5%;
+  width: 25%;
+  height: 10%;
+  background-color: bisque;
+  border: 2px solid gold;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: .5s;
+}
+.elona button:hover{
+  transform: scale(1.3);
+  background-color: burlywood;
+}
+
+
+
+  
+  .footer{
+    background-color: black;
+    height: 40%;
+    color: whitesmoke;
+    text-align: center;
+  }
+
+  .footer img{
+    width: 10px;
+    z-index: 1;
+    margin-right: 10px;
+  }
+  .footer a{
+    padding: 30px;
+    transition: .5s;
+  }
+  .footer a:hover{
+    color: orchid;
+  }
+ 
+  .footer .txt{
+    padding-left: 30%;
+    padding-top: 2%;
+    font-size: 16px;
+    width: 40%;
+    font-weight: bold;
+    font-family: "My Font";
+    color: orchid;
+  }
